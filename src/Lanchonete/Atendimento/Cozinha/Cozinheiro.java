@@ -5,6 +5,7 @@ import Lanchonete.Atendimento.Atendente;
 public class Cozinheiro {
 
     //usar apenas o void, deixa a função default
+    //uma função default, pode ser chamada por outras classes que estejam no mesmo package.
     public void adicionarLancheNoBalcao(){
         System.out.println("Adicionando lanche natural no balcão");
     }
