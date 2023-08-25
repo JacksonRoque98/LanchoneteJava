@@ -7,9 +7,13 @@ public class Almoxarife {
     private void controlarSaida() {
         System.out.println("CONTROLANDO A SAIDA DOS ITENS");
     }
+    void recebendoIngredientes() {
+        controlarEntrada();
+        System.out.println("RECEBENDO OS INGREDIENTES");
+    }
     void entregarIngredientes() {
-        System.out.println("ENTREGANDO INGREDIENTES");
         controlarSaida();
+        System.out.println("ENTREGANDO OS INGREDIENTES");
     }
     void trocarGas() {
         System.out.println("ALMOXARIFE TROCANDO O GÁS");
